@@ -1,17 +1,13 @@
 ---
 name: Test product
-garment_type: top
-price:
-sku:
-description:
+garment_type:
+price: '500'
+sku: test
+description: Producto de prueba.
 sizes:
   - XS
-  - Small
-  - Medium
-  - Large
-  - XL
 styles:
-  - name:
-    color:
-    image:
+  - name: Test
+    color: '#dc5757'
+    image: /images/products/deer/IMG_4355.JPG
 ---
