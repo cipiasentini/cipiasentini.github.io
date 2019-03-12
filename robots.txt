@@ -1,6 +1,2 @@
----
-layout: null
-sitemap: false
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://cipiasentini.github.io/products/deer/#!//sitemap.xml
