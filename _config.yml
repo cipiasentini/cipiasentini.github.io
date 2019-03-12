@@ -1,20 +1,21 @@
 # ----
 # Site
 
-title: Impresiones 3D
-url: "https://cipiasentini.github.io/products/deer/#!/"
+title: Fur
+url: "http://turquoise-rook.cloudvent.net/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-snipcart_key:
+snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Portfolio de impresiones 3D
+description: Fur t-shirt store
 author:
-  name: Carlos Piasentini
-  email: winleonic@gmail.com
-  phone: "+3777404404"
+  name: fur
+  email: fur@example.com
+  twitter: fur # twitter username without the @ symbol
+  phone: "+1 23456789"
 social:
   name: Fur Template
   links:
