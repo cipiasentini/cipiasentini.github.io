@@ -1,12 +1,12 @@
-- name: Products
+- name: Impresiones
   link: /
   new_window: false
   highlight: false
-- name: Our Story
-  link: /about/
-  new_window: false
-  highlight: false
-- name: Contact
+# - name: Mi historia
+#   link: /about/
+#   new_window: false
+#   highlight: false
+- name: Contacto
   link: /contact/
   new_window: false
   highlight: false

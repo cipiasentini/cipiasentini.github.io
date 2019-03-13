@@ -5,7 +5,7 @@ title: Impresiones 3D - Resistencia, Chaco
 url: "https://cipiasentini.github.io"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
+google_maps_javascript_api_key: "AIzaSyAaRRXSESODT6Hr9mAeBotjkDC_LJAE3MQ"
 snipcart_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)

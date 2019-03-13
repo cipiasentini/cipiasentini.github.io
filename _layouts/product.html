@@ -4,14 +4,14 @@ layout: default
 <div class="content">
 	<section class="page">
 		<div class="container">
-			<div class="product-container">
+			<div class="product-container" style="min-width: 200px; display: block;margin-left: auto;margin-right: auto;">
 				{% include product-styles.html product=page %}
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
-
+					<!-- <div class="button">{% include snipcart-button.html product=page %}</div> -->
+					<p style="font-size: 15px">* Se realizan envíos a cargo del comprador</p>
 					<h4>${{ page.price }}</h4>
-					<div class="button">{% include snipcart-button.html product=page %}</div>
 				</div>
 			</div>
 		</div>

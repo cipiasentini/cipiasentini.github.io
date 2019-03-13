@@ -4,35 +4,74 @@ description: Get in touch
 email: fur@example.com
 hero: Get in touch
 map:
-  latitude: -45.873511
-  longitude: 170.503704
-  address: 'Dunedin, New Zealand'
-  zoom: 13
+  latitude: -27.448025
+  longitude: -58.977898
+  address: 'Por esta zona'
+  zoom: 15
 ---
+<style>
+
+  #marker {
+  background-image: url('/images/3dprint.jpeg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+
+  .mapboxgl-popup {
+  max-width: 200px;
+  }
+
+</style>
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<h3>Send us a message</h3>
-		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
+		<h3>Escribime por privado</h3>
+      <p>Si te gustó algun modelo, o queres hacer pedido de alguno en especial, escribime!</p>
+      <p class="email">Mail: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <p>Talefono: <a href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></p>
 
-		<label for="email">Email Address</label>
-		<input type="email" name="email" id="email" placeholder="Enter your email..." required inputmode="email">
-
-		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-
-		<input type="hidden" name="_to" value="{{ page.email }}">
-		<input type="text" name="_gotcha" style="display: none;">
-
-		<input type="submit" value="Send Message">
+      <!-- <div class="social-icons">
+        <a class="facebook" href="/">{% include social-icon.html icon="Facebook2" %}</a>
+        <a class="twitter" href="/">{% include social-icon.html icon="Twitter" %}</a>
+        <a class="google-plus" href="/">{% include social-icon.html icon="Google Plus" %}</a>
+        <a class="linkedin" href="/">{% include social-icon.html icon="LinkedIn" %}</a>
+      </div> -->
 	</form>
 
 	<div class="contact-details">
 		<div class="map" id="map"></div>
 </div>
 
-<script type="text/javascript">
+<!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic2NyZXd1IiwiYSI6ImNqdDc0YXhncTA2YnQ0NXF4ZXd2cjljMWMifQ.mLuXtRwY_sWQxY3PCoG6Pg';
+
+  var monument = [-58.977898, -27.448025];
+  var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/light-v9',
+  center: monument,
+  zoom: 15
+  });
+
+  // create the popup
+  var popup = new mapboxgl.Popup({ offset: 25 })
+  .setText('Retirá tus pedidos desde aquí!');
+
+  // create DOM element for the marker
+  var el = document.createElement('div');
+  el.id = 'marker';
+
+  // create the marker
+  new mapboxgl.Marker(el)
+  .setLngLat(monument)
+  .setPopup(popup) // sets a popup on this marker
+  .addTo(map);
+</script>
+<!-- <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 
 	function initMap() {
@@ -58,5 +97,5 @@ map:
 			map.setCenter(myOptions.center);
 		});
 	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+</script> -->
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script> -->
