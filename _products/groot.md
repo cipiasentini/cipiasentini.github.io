@@ -8,6 +8,15 @@ sizes:
   - 12cm
 styles:
   - name: Madera
-    color: '#9b8622'
-    image: /images/products/deer/IMG_4355.JPG
+    color: '#ffffff'
+    image: /images/products/groot.jpeg
+  - name: Madera
+    color: '#ffffff'
+    image: /images/products/groot1.jpeg
+  - name: Madera
+    color: '#ffffff'
+    image: /images/products/groot2.jpeg
+  - name: Madera
+    color: '#ffffff'
+    image: /images/products/groot3.jpeg
 ---
