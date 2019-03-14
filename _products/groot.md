@@ -1,6 +1,6 @@
 ---
 name: Baby Groot - Maceta
-description_markdown: Maceta de Baby Groot de aproximadamente 12 cent&iacute;metros de alto.
+description_markdown: Maceta de Baby Groot de aproximadamente 12 cent&iacute;metros de alto. Se entrega sin cactus.
 garment_type:
 price: '550'
 stock: 10
