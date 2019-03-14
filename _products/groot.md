@@ -7,16 +7,16 @@ stock: 10
 sizes:
   - 12cm
 styles:
-  - name: Madera
+  - name: 1
     color: '#ffffff'
     image: /images/products/groot.jpeg
-  - name: Madera
+  - name: 2
     color: '#ffffff'
     image: /images/products/groot1.jpeg
-  - name: Madera
+  - name: 3
     color: '#ffffff'
     image: /images/products/groot2.jpeg
-  - name: Madera
+  - name: 4
     color: '#ffffff'
     image: /images/products/groot3.jpeg
 ---
