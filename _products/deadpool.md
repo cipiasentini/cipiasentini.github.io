@@ -12,5 +12,5 @@ styles:
     image: /images/products/deadpool2.jpeg
   - name: 2
     color: '#ffffff'
-    image: /images/products/deadpool.jpeg
+    image: /images/products/deadpool1.jpeg
 ---
