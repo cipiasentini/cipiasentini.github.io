@@ -9,11 +9,11 @@ sizes:
 styles:
   - name: 1
     color: '#ffffff'
-    image: /images/products/lampara1.jpg
+    image: /images/products/lampara1.jpeg
   - name: 2
     color: '#ffffff'
-    image: /images/products/lampara2.jpg
+    image: /images/products/lampara2.jpeg
   - name: 3
     color: '#ffffff'
-    image: /images/products/lampara3.jpg
+    image: /images/products/lampara3.jpeg
 ---

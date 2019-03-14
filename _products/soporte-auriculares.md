@@ -9,11 +9,11 @@ sizes:
 styles:
   - name: 1
     color: '#ffffff'
-    image: /images/products/auri1.jpg
+    image: /images/products/auri1.jpeg
   - name: 2
     color: '#ffffff'
-    image: /images/products/auri2.jpg
+    image: /images/products/auri2.jpeg
   - name: 3
     color: '#ffffff'
-    image: /images/products/auri3.jpg
+    image: /images/products/auri3.jpeg
 ---
