@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Impresiones 3D - Resistencia, Chaco
-url: "https://cipiasentini.github.io"
+title: C3D Impresiones - Resistencia, Chaco
+url: "https://c3dshop.tk"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,11 +10,11 @@ snipcart_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /3d.png
-description: Impresiones 3D - Resistencia, Chaco
+description: C3D Impresiones - Resistencia, Chaco
 author:
-  name: Carlos Piasentini
+  name: Carlos
   email: ventas@c3dshop.tk
-  twitter: carlossip
+  twitter:
   phone: "1122501912"
 social:
   name: Fur Template
