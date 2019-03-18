@@ -1,5 +1,9 @@
 <div class="styles">
-	{% for style in include.product.styles %}
+	{% assign fotos = include.product.imagenes %}
+	{{ fotos }}
+	{% include slider.html selector=fotos %}
+
+	<!-- {% for style in include.product.styles %}
 		<div class="style" data-item-id="{{ forloop.index }}" {% unless forloop.first %}style="display: none"{% endunless %}>
 			<a href="{{ include.product.url }}">
 				<img src="{{ style.image }}">
@@ -11,5 +15,5 @@
 		{% for style in include.product.styles %}
 			<div style="background-color: {{ style.color }}" data-item-id="{{ forloop.index }}"></div>
 		{% endfor %}
-	</div>
+	</div> -->
 </div>

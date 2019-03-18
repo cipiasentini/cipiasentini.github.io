@@ -1,0 +1,15 @@
+# example slider
+- selector: groot
+  captions: true
+  images:
+    - src: /images/products/groot.jpeg
+      alt: image one
+    - src: /images/products/groot1.jpeg
+      alt: image one
+    - src: /images/products/groot2.jpeg
+      alt: image two
+    - src: /images/products/groot3.jpeg
+      alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
